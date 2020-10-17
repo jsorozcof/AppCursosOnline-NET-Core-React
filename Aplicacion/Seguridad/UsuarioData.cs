@@ -8,5 +8,7 @@ namespace Aplicacion.Seguridad
         public string Username {get; set;}
 
         public string Imagen {get; set;}
+
+        public ImagenGeneral ImagenPerfil {get; set;}
     }
 }

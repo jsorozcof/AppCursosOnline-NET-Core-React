@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -8,6 +10,8 @@ using Dominio;
 using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Persistencia;
 
 namespace Aplicacion.Seguridad
 {
@@ -20,7 +24,7 @@ namespace Aplicacion.Seguridad
 
         }
 
-        public class EjecutaValidacion: AbstractValidator<Ejecuta>
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
         {
             public EjecutaValidacion()
             {
@@ -28,14 +32,16 @@ namespace Aplicacion.Seguridad
                 RuleFor(x => x.Password).NotEmpty();
             }
         }
-        
+
         public class Manejador : IRequestHandler<Ejecuta, UsuarioData>
         {
             private readonly UserManager<Usuario> _userManager;
             private readonly SignInManager<Usuario> _signInManager;
             private readonly IJwtGenerador _jwtGenerador;
-            public Manejador(UserManager<Usuario> userManager, SignInManager<Usuario> signInManager, IJwtGenerador jwtGenerador)
+            private readonly CurosOnlineContext _context;
+            public Manejador(CurosOnlineContext context, UserManager<Usuario> userManager, SignInManager<Usuario> signInManager, IJwtGenerador jwtGenerador)
             {
+                _context = context;
                 _userManager = userManager;
                 _signInManager = signInManager;
                 _jwtGenerador = jwtGenerador;
@@ -51,21 +57,42 @@ namespace Aplicacion.Seguridad
                 var resultado = await _signInManager.CheckPasswordSignInAsync(usuario, request.Password, false);
                 var resultadoRoles = await _userManager.GetRolesAsync(usuario);
                 var listaRoles = new List<string>(resultadoRoles);
-              
+
+                var imagenPerfil = await _context.Documento.Where(x => x.ObjetoReferencia == new System.Guid(usuario.Id)).FirstAsync();
                 if (resultado.Succeeded)
                 {
-                    return  new UsuarioData {
-                        NombreCompleto = usuario.NombreCompleto,
-                        Token = _jwtGenerador.CrearToken(usuario,listaRoles),
-                        Username = usuario.UserName,
-                        Email = usuario.Email,
-                        Imagen = null
-                    };
+                    if (imagenPerfil != null)
+                    {
+                        var imagenCliente = new ImagenGeneral
+                        {
+                            Data = Convert.ToBase64String(imagenPerfil.Contenido),
+                            Extension = imagenPerfil.Extenxion,
+                            Nombre = imagenPerfil.Nombre
+                        };
+
+                        return new UsuarioData
+                        {
+                            NombreCompleto = usuario.NombreCompleto,
+                            Token = _jwtGenerador.CrearToken(usuario, listaRoles),
+                            Username = usuario.UserName,
+                            Email = usuario.Email,
+                            ImagenPerfil = imagenCliente
+                        };
+                    }
+                    else
+                    {
+                        return new UsuarioData
+                        {
+                            NombreCompleto = usuario.NombreCompleto,
+                            Token = _jwtGenerador.CrearToken(usuario, listaRoles),
+                            Username = usuario.UserName,
+                            Email = usuario.Email,
+                            Imagen = null
+                        };
+                    }
                 }
-                else
-                {
-                    throw new ManejadorExepcion(HttpStatusCode.Unauthorized);
-                }
+
+                throw new ManejadorExepcion(HttpStatusCode.Unauthorized);
             }
         }
     }
