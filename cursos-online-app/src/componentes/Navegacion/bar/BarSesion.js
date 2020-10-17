@@ -108,12 +108,7 @@ const BarSesion = (props) => {
         anchor="left"
       >
        <div className= {classes.list} onKeyDown={cerrarMenuIzquierda} onClick={cerrarMenuIzquierda}>
-        <List>
-          <ListItem button>
-            <i className="material-icons">account_box</i>
-            <ListItemText className={{primary: classes.listItemText}} primary="Perfil"/>
-          </ListItem>
-        </List>
+        <MenuIzquierda classes={classes}/>
        </div>
       
       </Drawer>

@@ -21,7 +21,7 @@ export const MenuIzquierda = ({classes}) => (
                 <ListItemText classes={{primary: classes.listItemText}} primary ="Lista Cursos" />
             </ListItem>
         </List>
-        <Divider />
+        <Divider/>
         <List>
             <ListItem component={Link} button  to="/instructor/nuevo">
                  <i className="material-icons">person_add</i>
