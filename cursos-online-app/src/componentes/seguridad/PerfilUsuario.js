@@ -30,23 +30,30 @@ const PerfilUsuario = () => {
     });
   }, [])
   
-
-
- /*useEffect(() => {
-  setUsuario(sesionUsuario.usuario);
-  setUsuario((anterior) => ({
-    ...anterior,
-    imagenPerfil : null
-  }));
-}, []);
-*/
-
-
   const guardarUsuario = e => {
     e.preventDefault();
     actualizarUsuario(usuario).then(response => {
-      console.log('se actualizo el usuario', response);
-        //window.localStorage.setItem("token_seguridad", response.data.token);
+      if(response.status == 200){
+        dispatch({
+          type: "OPEN_SNACKBAR",
+          openMensaje: {
+            open: true,
+            mensaje: "Se guardaron exitosamente los camnbio en el perfil usuario"
+          }
+        })
+
+        window.localStorage.setItem("token_seguridad", response.data.token);
+
+      }else {
+        dispatch({
+          type: "OPEN_SNACKBAR",
+          openMensaje: {
+            open: true,
+            mensaje: "Errores al intentar guardar en : " +  Object.keys(response.data.errors)
+          }
+        })
+      }
+      //console.log('se actualizo el usuario', response);
 
     })
   }

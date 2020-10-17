@@ -804,11 +804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\ProyectoCore\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "c:\\ProyectoCore\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\tkfer\\.nuget\\packages\\",
-      "outputPath": "c:\\ProyectoCore\\Dominio\\obj\\",
+      "outputPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

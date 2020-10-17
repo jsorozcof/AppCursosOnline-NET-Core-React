@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N98uOI3LZlO3ik8HXPpCLnkTCp666+xAdH4LuCiU3BhDqptTcl7n5BO3DFAo6F3oY6d9VdCXVBw0k+ko3Nv89w==",
+  "dgSpecHash": "CYm7q3I8K79bnueY/Za0J4wuVpaMjW4oQ27SjzoKZMCcRqUP5QGtoCStw+pZxV90pdqBDk6WsZAF8gcAEPAMRQ==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkfer\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\tkfer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

@@ -5962,11 +5962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\tkfer\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoCore\\WebAPI\\obj\\",
+      "outputPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5987,11 +5987,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+            "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\Aplicacion.csproj"
             },
-            "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj"
+            "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Seguridad\\Seguridad.csproj"
             }
           }
         }

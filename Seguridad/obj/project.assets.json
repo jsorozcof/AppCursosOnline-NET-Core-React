@@ -5624,11 +5624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+      "projectUniqueName": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Seguridad\\Seguridad.csproj",
       "projectName": "Seguridad",
-      "projectPath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+      "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Seguridad\\Seguridad.csproj",
       "packagesPath": "C:\\Users\\tkfer\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoCore\\Seguridad\\obj\\",
+      "outputPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5649,8 +5649,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+            "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

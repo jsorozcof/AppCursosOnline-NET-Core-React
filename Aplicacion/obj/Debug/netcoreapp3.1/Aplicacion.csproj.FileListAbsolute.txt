@@ -12,3 +12,17 @@ C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompile
 C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
 C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
 C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb

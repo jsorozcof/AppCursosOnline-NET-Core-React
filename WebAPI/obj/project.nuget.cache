@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CetWvXXpzKWUfmdqW/rRBN9Inc5tl5BgWBuERBel0vIwk4V2KjFpKQZB55BcwW+hqIWoVJFbNrOdp1nWtlIzeQ==",
+  "dgSpecHash": "nRKeYSfP1Mwkud5K0EQ6kSNmfiqlKcwf1r67Vtu0hBuErWzXpGoBRvdIP1nNIXUOtyQP2zW+SN3kOqyRVxWPiA==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkfer\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\tkfer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

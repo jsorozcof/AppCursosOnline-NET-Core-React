@@ -5408,11 +5408,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\tkfer\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoCore\\Aplicacion\\obj\\",
+      "outputPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5433,11 +5433,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+            "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj"
             },
-            "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+            "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Persistencia\\Persistencia.csproj"
             }
           }
         }

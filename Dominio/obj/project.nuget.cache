@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V7UudV/6j/F86rPrzP8t7eRklyXawqrfmU64kUjpmpsOODnvqk+ad5ENw3K/vKk1TukksFKozrwHU916j5CI4w==",
+  "dgSpecHash": "7bpssH1cxrordU59tFwZyAWyllebumCge22n3yWA9L+0rkrFnjHj2QDtfbj64KXZ9DL+YUwrQoMQh9viIW7zzw==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkfer\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.1\\microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",
     "C:\\Users\\tkfer\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.1\\microsoft.aspnetcore.cryptography.keyderivation.3.1.1.nupkg.sha512",

@@ -3,38 +3,54 @@ import theme from "./theme/theme";
 import RegistrarUsuario from "./componentes/seguridad/RegistrarUsuario";
 import Login from "./componentes/seguridad/Login";
 import PerfilUsuario from "./componentes/seguridad/PerfilUsuario";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Grid } from "@material-ui/core";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Grid, Snackbar } from "@material-ui/core";
 import AppNavbar from "./componentes/Navegacion/AppNavbar";
 import { useStateValue } from "./contexto/store";
 import React, { useState, useEffect } from "react";
 import { obtenerUsuarioActual } from "./actions/UsuarioAction";
 
-
-
-
 function App() {
-    const [{ openSnackbar }, dispatch] = useStateValue();
+  const [{ sesionUsuario, openSnackbar }, dispatch] = useStateValue();
 
-    const [iniciaApp, setIniciaApp] = useState(false);
+  const [iniciaApp, setIniciaApp] = useState(false);
 
-    useEffect(() => {
-        if (!iniciaApp) {
-            obtenerUsuarioActual(dispatch)
-                .then((response) => {
-                    setIniciaApp(true);
-                })
-                .catch((error) => {
-                    setIniciaApp(true);
-                });
+  useEffect(() => {
+    if (!iniciaApp) {
+      obtenerUsuarioActual(dispatch)
+        .then((response) => {
+          setIniciaApp(true);
+        })
+        .catch((error) => {
+          setIniciaApp(true);
+        });
+    }
+  }, [iniciaApp]);
+
+  return (
+    <React.Fragment>
+     <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        open={openSnackbar ? openSnackbar.open : false}
+        autoHideDuration={3000}
+        ContentProps={{ "aria-describedby": "message-id" }}
+        message={
+          <span id="message-id">
+            {openSnackbar ? openSnackbar.mensaje : ""}
+          </span>
         }
-    }, [iniciaApp]);
+        onClose={() =>
+          dispatch({
+            type: "OPEN_SNACKBAR",
+            openMensaje: {
+              open: false,
+              mensaje: "",
+            },
+          })
+        }
+      ></Snackbar>
 
-
-
-
-    return ( 
-        <Router>
+      <Router>
         <MuithemeProvider theme={theme}>
           <AppNavbar />
           <Grid container>
@@ -45,24 +61,16 @@ function App() {
                 path="/auth/registrar"
                 component={RegistrarUsuario}
               />
-              
-                <Route 
-                  exact
-                  path = "/auth/perfil"
-                  component = {PerfilUsuario}
-                />
-              
-              <Route 
-                exact
-                path="/"
-                component={PerfilUsuario}
-              />
 
+              <Route exact path="/auth/perfil" component={PerfilUsuario} />
+
+              <Route exact path="/" component={PerfilUsuario} />
             </Switch>
           </Grid>
         </MuithemeProvider>
       </Router>
-    );
+    </React.Fragment>
+  );
 }
 
 export default App;

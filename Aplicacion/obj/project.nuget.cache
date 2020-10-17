@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QBsErxREp7LCAkbfxCAMlKCPAGqg8RZpbGdeSS4jTP/r98L0R30UpMTT8dx47pH/OonGfKetEu73CS1OdD8IEw==",
+  "dgSpecHash": "453AZ9ViFKdnUf1wXaFSAJL93Od6HpAbtueHJF7EGSkReSzeL2FrPJEN/AzUSz8/U5fqpsOITwCDs6RG7du4vA==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkfer\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\tkfer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

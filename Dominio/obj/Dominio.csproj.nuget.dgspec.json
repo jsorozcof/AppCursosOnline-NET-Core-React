@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {}
+    "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\tkfer\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "C:\\A_GitHub\\AppCursosOnline-NET-Core-React\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

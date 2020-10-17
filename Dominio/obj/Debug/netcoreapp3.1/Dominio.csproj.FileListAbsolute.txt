@@ -7,3 +7,12 @@ C:\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
 C:\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
