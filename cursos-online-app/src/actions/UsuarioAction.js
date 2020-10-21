@@ -13,6 +13,11 @@ export const obtenerUsuarioActual = (dispatch) => {
     return new Promise((resolve, eject) => {
         HttpCliente.get("/usuario")
             .then((response) => {
+                if (response.data && response.data.imagenPerfil) {
+                    let fotoPerfil = response.data.imagenPerfil;
+                    const nuevoFile = 'data:image/' + fotoPerfil.extension + ';base64,' + fotoPerfil.data;
+                    response.data.imagenPerfil = nuevoFile;
+                }
                 dispatch({
                     type: "INICIAR_SESION",
                     sesion: response.data,
