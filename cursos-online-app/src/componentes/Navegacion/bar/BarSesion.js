@@ -69,17 +69,16 @@ const BarSesion = (props) => {
   };
 
   const salirSesionApp = () => {
-    console.log("salir sesion");
     localStorage.removeItem("token_seguridad");
-
-   /* dispatch({
+    dispatch({
       type: "SALIR_SESION",
       nuevoUsuario: null,
       autenticado: false,
     });
-    */
-
+    
     props.history.push("/auth/login");
+
+
   };
 
   const abrirMenuDerechaAction = () => {
@@ -126,7 +125,7 @@ const BarSesion = (props) => {
         <div className={classes.grow}></div>
 
         <div className={classes.seccionDesktop}>
-          <Button color="inherit">Salir</Button>
+          <Button color="inherit" onClick={salirSesionApp}>Salir</Button>
           <Button color="inherit">
             {sesionUsuario ? sesionUsuario.usuario.nombreCompleto : ""}
           </Button>
