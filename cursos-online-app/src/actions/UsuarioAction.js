@@ -1,8 +1,14 @@
 import HttpCliente from '../Servicios/HttpCliente';
+import axios from 'axios';
+
+const instancia = axios.create();
+instancia.CancelToken = axios.CancelToken;
+instancia.isCancel = axios.isCancel;
+
 
 export const registrarUsuario = (usuario) => {
     return new Promise((resolve, eject) => {
-        HttpCliente.post("/usuario/registrar", usuario).then((response) => {
+        instancia.post("/usuario/registrar", usuario).then((response) => {
             resolve(response);
         });
     });
@@ -41,7 +47,7 @@ export const actualizarUsuario = (usuario, dispatch) => {
             .then(response => {
                 if (response.data && response.data.imagenPerfil) {
                     let fotoPerfil = response.data.imagenPerfil;
-                    const nuevoFile = 'data:image/' + fotoPerfil.extension + ';base64' + fotoPerfil.data;
+                    const nuevoFile = 'data:image/' + fotoPerfil.extension + ';base64,' + fotoPerfil.data;
                     response.data.imagenPerfil = nuevoFile;
                 }
 
@@ -61,10 +67,26 @@ export const actualizarUsuario = (usuario, dispatch) => {
 
 
 
-export const loginUsuario = usuario => {
+export const loginUsuario = (usuario, dispatch) => {
     return new Promise((resolve, eject) => {
-        HttpCliente.post("/usuario/login", usuario).then(response => {
+        instancia.post("/usuario/login", usuario).then(response => {
+            if(response.data && response.data.imagenPerfil){
+                let fotoPerfil = response.data.imagenPerfil;
+                const nuevoFile = "data:image/" + fotoPerfil.extension + ";base64," + fotoPerfil.data;
+                response.data.imagenPerfil = nuevoFile;
+            }
+
+
+            dispatch({
+                type: "INICIAR_SESION",
+                sesion: response.data,
+                autenticado: true
+            })
+
+
             resolve(response);
+        }).catch(error => {
+            resolve(error.response);
         })
-    })
-}
+    });
+};

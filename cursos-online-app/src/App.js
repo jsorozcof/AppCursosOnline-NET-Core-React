@@ -9,6 +9,7 @@ import AppNavbar from "./componentes/Navegacion/AppNavbar";
 import { useStateValue } from "./contexto/store";
 import React, { useState, useEffect } from "react";
 import { obtenerUsuarioActual } from "./actions/UsuarioAction";
+import RutaSegura from "./componentes/Navegacion/RutaSegura";
 
 function App() {
   const [{ sesionUsuario, openSnackbar }, dispatch] = useStateValue();
@@ -62,9 +63,19 @@ function App() {
                 component={RegistrarUsuario}
               />
 
-              <Route exact path="/auth/perfil" component={PerfilUsuario} />
+              <RutaSegura
+              exact
+              path="/auth/perfil"
+              component = {PerfilUsuario}
+              />
 
-              <Route exact path="/" component={PerfilUsuario} />
+              <RutaSegura
+              exact 
+              path="/" 
+              component={PerfilUsuario}
+              />
+
+
             </Switch>
           </Grid>
         </MuithemeProvider>

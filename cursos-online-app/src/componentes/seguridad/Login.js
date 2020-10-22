@@ -3,8 +3,11 @@ import React, { useState } from 'react';
 import style from '../Tool/Style';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import { loginUsuario } from '../../actions/UsuarioAction';
+import { withRouter } from 'react-router-dom';
+import { useStateValue } from '../../contexto/store';
 
-const Login = () => {
+const Login = (props) => {
+    const [{ usuarioSesion }, dispatch] = useStateValue();
     const [usuario, setUsuario] = useState({
         Email: '',
         Password: ''
@@ -20,10 +23,21 @@ const Login = () => {
 
     const loginUsuarioClick = e => {
         e.preventDefault();
-        loginUsuario(usuario).then(response => {
-            console.log('login exitoso', response);
+        loginUsuario(usuario, dispatch).then(response => {
+           
+          if(response.status == 200){
             window.localStorage.setItem('token_seguridad', response.data.token);
-        })
+            props.history.push("/");
+          }else {
+            dispatch({
+              type : "OPEN_SNACKBAR",
+              openMensaje: {
+                open: true,
+                mensaje: "Las credenciales del usuario son incorrectas"
+              }
+            })
+          }
+      })
     }
 
 
@@ -70,5 +84,5 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default withRouter(Login);
 
