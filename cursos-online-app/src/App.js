@@ -10,6 +10,7 @@ import { useStateValue } from "./contexto/store";
 import React, { useState, useEffect } from "react";
 import { obtenerUsuarioActual } from "./actions/UsuarioAction";
 import RutaSegura from "./componentes/Navegacion/RutaSegura";
+import NuevoCurso from "./componentes/cursos/NuevoCurso";
 
 function App() {
   const [{ sesionUsuario, openSnackbar }, dispatch] = useStateValue();
@@ -73,6 +74,12 @@ function App() {
               exact 
               path="/" 
               component={PerfilUsuario}
+              />
+
+              <RutaSegura
+              exact 
+              path="/curso/nuevo" 
+              component={NuevoCurso}
               />
 
 
