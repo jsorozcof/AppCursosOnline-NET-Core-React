@@ -170,3 +170,5 @@ C:\A_GitHub\AppCursosOnline-NET-Core-React\WebAPI\obj\Debug\netcoreapp3.1\static
 C:\A_GitHub\AppCursosOnline-NET-Core-React\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\A_GitHub\AppCursosOnline-NET-Core-React\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\A_GitHub\AppCursosOnline-NET-Core-React\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\WebAPI\bin\Debug\netcoreapp3.1\iTextSharp.LGPLv2.Core.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\WebAPI\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll

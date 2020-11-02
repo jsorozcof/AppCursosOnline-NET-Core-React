@@ -1,0 +1,14 @@
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Release\netcoreapp3.1\Aplicacion.deps.json
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Release\netcoreapp3.1\Aplicacion.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Release\netcoreapp3.1\Aplicacion.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Release\netcoreapp3.1\Dominio.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Release\netcoreapp3.1\Persistencia.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Release\netcoreapp3.1\Dominio.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\bin\Release\netcoreapp3.1\Persistencia.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.pdb

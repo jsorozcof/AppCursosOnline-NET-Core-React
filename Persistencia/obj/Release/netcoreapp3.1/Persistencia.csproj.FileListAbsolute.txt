@@ -1,0 +1,15 @@
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\bin\Release\netcoreapp3.1\Persistencia.deps.json
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\bin\Release\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\bin\Release\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\bin\Release\netcoreapp3.1\Persistencia.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\bin\Release\netcoreapp3.1\Persistencia.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\bin\Release\netcoreapp3.1\Dominio.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\bin\Release\netcoreapp3.1\Dominio.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.dll
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.pdb
+C:\A_GitHub\AppCursosOnline-NET-Core-React\Persistencia\obj\Release\netcoreapp3.1\Persistencia.genruntimeconfig.cache
